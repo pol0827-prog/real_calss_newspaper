@@ -1,0 +1,10 @@
+{
+  "name": "class-newspaper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "3학년 1반 우리들 신문 — Firebase + Vercel + Google AI Studio",
+  "engines": {
+    "node": ">=20"
+  }
+}
