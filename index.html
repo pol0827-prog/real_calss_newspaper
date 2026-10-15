@@ -2108,6 +2108,42 @@ html, body { background: var(--app-bg); margin: 0; }
   display: none;
 }
 
+/* 바탕 6~10: 그림 바탕 (글이 잘 읽히도록 흰 막을 덮음) */
+.ed-bg-6 {
+  background-color: #ffffff;
+  background-image: linear-gradient(rgb(255 255 255 / var(--bg-veil, 0.72)), rgb(255 255 255 / var(--bg-veil, 0.72))), url("bg/bg6.webp");
+  background-size: cover;
+  background-position: center;
+}
+.ed-bg-7 {
+  background-color: #ffffff;
+  background-image: linear-gradient(rgb(255 255 255 / var(--bg-veil, 0.72)), rgb(255 255 255 / var(--bg-veil, 0.72))), url("bg/bg7.webp");
+  background-size: cover;
+  background-position: center;
+}
+.ed-bg-8 {
+  background-color: #ffffff;
+  background-image: linear-gradient(rgb(255 255 255 / var(--bg-veil, 0.72)), rgb(255 255 255 / var(--bg-veil, 0.72))), url("bg/bg8.webp");
+  background-size: cover;
+  background-position: center;
+}
+.ed-bg-9 {
+  background-color: #ffffff;
+  background-image: linear-gradient(rgb(255 255 255 / var(--bg-veil, 0.72)), rgb(255 255 255 / var(--bg-veil, 0.72))), url("bg/bg9.webp");
+  background-size: cover;
+  background-position: center;
+}
+.ed-bg-10 {
+  background-color: #ffffff;
+  background-image: linear-gradient(rgb(255 255 255 / var(--bg-veil, 0.72)), rgb(255 255 255 / var(--bg-veil, 0.72))), url("bg/bg10.webp");
+  background-size: cover;
+  background-position: center;
+}
+.lp-bg.ed-bg-6, .lp-bg.ed-bg-7, .lp-bg.ed-bg-8, .lp-bg.ed-bg-9, .lp-bg.ed-bg-10 {
+  --bg-veil: 0.35;
+  text-shadow: 0 0 3px #fff, 0 0 3px #fff;
+}
+
 @media print {
   @page {
     size: A4;
