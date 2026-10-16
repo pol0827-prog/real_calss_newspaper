@@ -2189,6 +2189,22 @@ html, body { background: var(--app-bg); margin: 0; }
   line-height: 1.5;
 }
 
+/* 되돌리기·다시 하기 단추 */
+.ed-undo {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+}
+.ed-undo-emo {
+  font-size: 1.125rem;
+  line-height: 1;
+}
+.ed-undo:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
 @media print {
   @page {
     size: A4;
