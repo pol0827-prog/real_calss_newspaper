@@ -2144,6 +2144,51 @@ html, body { background: var(--app-bg); margin: 0; }
   text-shadow: 0 0 3px #fff, 0 0 3px #fff;
 }
 
+/* 올린 바탕 그림 */
+.lp-cbg {
+  position: relative;
+  display: flex;
+}
+.lp-cbg > button:first-child {
+  width: 100%;
+}
+.lp-cbg-del {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid var(--ui-line);
+  background: var(--ui-panel);
+  color: #b3261e;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+}
+.lp-bg-add {
+  display: block;
+  margin-top: 8px;
+  padding: 8px;
+  border: 1px dashed var(--ui-line);
+  border-radius: 7px;
+  text-align: center;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.lp-bg-add:hover {
+  border-color: #1e5b45;
+  color: #1e5b45;
+}
+.lp-bg-note {
+  margin: 6px 0 0;
+  font-size: 0.75rem;
+  color: var(--ui-muted);
+  line-height: 1.5;
+}
+
 @media print {
   @page {
     size: A4;
